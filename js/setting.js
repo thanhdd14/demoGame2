@@ -18,26 +18,39 @@ $('.news-block__heading--all').on('click', function(){
     $(".news-block__fill li").removeClass("support");
     $(".news-block__fill li").removeClass("news");
     $(".news-block__fill li").addClass("all");
+    $(".news-block__heading li").removeClass("active");
+    $(this).addClass("active");
 });
 $('.news-block__heading--news').on('click', function(){
     $(".news-block__fill li").removeClass("all");
     $(".news-block__fill li").removeClass("event");
     $(".news-block__fill li").removeClass("support");
     $(".news-block__fill .news-block__fill--news").addClass("news");
+    $(".news-block__heading li").removeClass("active");
+    $(this).addClass("active");
 });
 $('.news-block__heading--event').on('click', function(){
     $(".news-block__fill li").removeClass("all");
     $(".news-block__fill li").removeClass("support");
     $(".news-block__fill li").removeClass("news");
     $(".news-block__fill .news-block__fill--event").addClass("event");
+    $(".news-block__heading li").removeClass("active");
+    $(this).addClass("active");
 });
 $('.news-block__heading--support').on('click', function(){
     $(".news-block__fill li").removeClass("all");
     $(".news-block__fill li").removeClass("news");
     $(".news-block__fill li").removeClass("event");
     $(".news-block__fill .news-block__fill--support").addClass("support");
+    $(".news-block__heading li").removeClass("active");
+    $(this).addClass("active");
 });
 
+$('.js-popup-ytb').on('click', function(e){
+    e.preventDefault();
+    $("#popup-youtube").addClass("active");
+    $("html").addClass("js-locked");
+});
 
 $(".procedure-show").slick({
   slidesToShow: 2,
