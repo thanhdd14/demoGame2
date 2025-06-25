@@ -2318,8 +2318,10 @@ Component
     margin-right: 6.5104166667vw;
   }
 }
-.pagination li .pagination-next__page {
-  margin-left: 6.5104166667vw;
+@media screen and (max-width: 768px) {
+  .pagination li .pagination-next__page {
+    margin-left: 6.5104166667vw;
+  }
 }
 
 #header {
