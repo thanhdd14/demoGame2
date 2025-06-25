@@ -1099,10 +1099,10 @@
 }
 
 .sec-work{
-	padding: vw(100) 0 vw(230);
+	padding: vw(100) 0 vw(150);
 
 	@include mq(){
-		padding: vwsp(50) 0 vwsp(200);
+		padding: vwsp(50) 0 vwsp(150);
 		z-index: 3;
 		.btn-list{
 			padding-left: 0;

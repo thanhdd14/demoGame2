@@ -602,3 +602,53 @@
 
 	}
 }
+
+.pagination{
+	@include flex(center,center,wrap);
+	li{
+		margin: 0 vw(6);
+		@include mq(){
+			margin: 0 vwsp(10);
+		}
+		a{
+			@include flex(center,center,wwrap);
+			width: vw(37);
+			height: vw(37);
+			font-size: vw(20);
+			line-height: 1;
+			text-align: center;
+			border: 1px solid #559677;
+			color: #559677;
+			@include mq(){
+				width: vwsp(37);
+				height: vwsp(37);
+				font-size: vwsp(20);
+			}
+			&.disabled{
+				pointer-events: none;
+			}
+			&.active,&:hover{
+				background: #559677;
+				color: white;
+			}
+		}
+		.pagination-prev__all,.pagination-next__all{
+			width: vw(77);
+			@include mq(){
+				width: vwsp(77);
+			}
+		}
+		.pagination-prev__all,.pagination-next__all,
+		.pagination-prev__page,.pagination-next__page{
+			border: none;
+		}
+		.pagination-prev__page{
+			@include mq(){
+			margin-right: vwsp(50);
+			}
+		}
+		.pagination-next__page{
+			margin-left: vwsp(50);
+		}
+	}
+}
