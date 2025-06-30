@@ -283,18 +283,7 @@
 					font-weight: 900;
 				}
 			}
-			&--nd{
-				background: url("../img/bg-popup-01.png")no-repeat;
-				background-size: 100% 100%;
-			}
-			&--gift{
-				background: url("../img/bg-popup-02.png")no-repeat;
-				background-size: 100% 100%;
-			}
-			&--noti{
-				background: url("../img/bg-popup-03.png")no-repeat;
-				background-size: 100% 100%;
-			}
+
 
 			&-ttl{
 				@include flex(center,center,wrap);
@@ -307,19 +296,16 @@
 				height: 44px;
 				color: white;
 				line-height: 1;
-				background: url("../img/bg-ttl.png")no-repeat;
 				margin-bottom: 20px;
 				@include mq(){
-					background: url("../img/bg-ttl-sp.png")no-repeat;
-					background-size: 100% 100%;
+
 					font-size: vwsp(35);
 					height: vwsp(60);
 					margin-bottom: vwsp(20);
 				}
 				&--small{
 					max-width: 404px;
-					background: url("../img/bg-ttl-small.png")no-repeat;
-					background-size: 100% 100%;
+
 					@include mq(){
 						margin: 0 auto vwsp(20);
 						max-width: vwsp(400);
@@ -396,8 +382,6 @@
 		&__task{
 			&-item{
 				@include flex(0,center,wrap);
-				background: url("../img/task.png")no-repeat;
-				background-size: 100% 100%;
 				padding: 15px;
 				margin-bottom: 27px;
 				@include mq(){

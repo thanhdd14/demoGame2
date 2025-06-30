@@ -181,11 +181,37 @@
 		}
 	}
 	.hostline{
-		display: block;
+		@include flex(center,center,wrap);
+		align-content: center;
 		width: vw(206);
+		height: vw(55);
 		position: absolute;
 		top: vw(20);
 		right: 0;
+		line-height: 1;
+		font-size: vw(25);
+		font-weight: bold;
+		color: #3d8b76;
+		text-align: center;
+		background: url("../img/btn-phone.png")no-repeat;
+		background-size: 100% 100%;
+		padding: 0 vw(25) 0 0;
+		span{
+			display: block;
+			width: 100%;
+			color: #475053;
+			font-size: vw(18);
+		}
+		&:after{
+			content: "";
+			width: vw(33);
+			height: vw(33);
+			background: url("../img/phone.png")no-repeat;
+			background-size: 100%;
+			position: absolute;
+			@include v-align;
+			right: vw(28);
+		}
 	}
 	.js-mobile {
 		width: vwsp(105);
