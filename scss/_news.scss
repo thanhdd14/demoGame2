@@ -30,15 +30,29 @@
 
 .sec-content{
 	padding: vw(100) 0 vw(300);
+	@include mq(md-min){
+		background: white;
+		&:after{
+			content: "";
+			height: 400px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: url("../img/bg-022.png")no-repeat;
+			background-size: 100%;
+			background-position: bottom center;
+		}
+	}
 	&:before{
 		content: "";
 		position: absolute;
 		top: vw(-80);
 		left: 0;
 		right: 0;
-		bottom: 0;
-		background: url("../img/bg-content.png")no-repeat;
-		background-size: cover;
+		height: 1000px;
+		background: url(../img/bg-01.png) no-repeat;
+		background-size: 100%;
 		background-position: top center;
 		@include mq(){
 			display: none;
@@ -153,7 +167,7 @@
 		}
 	}
 	&__img{
-		width: vw(255);
+		width: vw(355);
 		opacity: 1;
 		display: block;
 		position: relative;
@@ -165,7 +179,7 @@
 		}
 	}
 	&__ct{
-		width: calc(100% - vw(255));
+		width: calc(100% - vw(355));
 		padding: 0 0 0 vw(30);
 		font-size: vw(18);
 		line-height: 1.4;
@@ -173,6 +187,18 @@
 		@include mq(){
 			width: calc(100% - vwsp(246));
 			padding: 0 0 0 vwsp(30);
+		}
+		time{
+			display: block;
+			font-size: vw(18);
+			color: #4e8e81;
+			position: absolute;
+			bottom: 0;
+			left: vw(29);
+			@include mq(){
+				left: vwsp(20);
+				font-size: vwsp(16);
+			}
 		}
 		&-ttl{
 			display: block;
@@ -214,6 +240,7 @@
 			span,small{
 				display: block;
 			}
+
 			@include mq(md-min){
 				span{
 					color: #559677;
