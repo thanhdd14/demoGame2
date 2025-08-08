@@ -4356,4 +4356,81 @@ Component
     margin-bottom: 6.5104166667vw;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .company-description {
+    font-size: 0.8333333333vw;
+  }
+
+  .details-section h4, .contact-section h4 {
+    font-size: 0.9375vw;
+  }
+
+  .company-title {
+    font-size: 0.9375vw;
+  }
+
+  .license-content p {
+    font-size: 0.8333333333vw;
+  }
+
+  .contact-content p {
+    font-size: 0.8333333333vw;
+  }
+
+  .hotline-link {
+    font-size: 1.0416666667vw;
+  }
+
+  .footer-links {
+    font-size: 0.8333333333vw;
+  }
+
+  .support-button {
+    padding: 0.4166666667vw 0.8333333333vw;
+    font-size: 0.8333333333vw;
+  }
+
+  .age-content {
+    font-size: 0.8333333333vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .company-description {
+    font-size: 1.8229166667vw;
+  }
+
+  .details-section h4 {
+    font-size: 2.34375vw;
+  }
+
+  .license-content p {
+    font-size: 1.8229166667vw;
+  }
+
+  .contact-section h4 {
+    font-size: 2.34375vw;
+  }
+
+  .hotline-link {
+    font-size: 2.6041666667vw;
+  }
+
+  .contact-content p {
+    font-size: 2.0833333333vw;
+  }
+
+  .footer-links {
+    font-size: 2.0833333333vw;
+  }
+
+  .support-button {
+    padding: 1.0416666667vw 2.0833333333vw;
+    font-size: 2.0833333333vw;
+  }
+
+  .age-content {
+    font-size: 2.0833333333vw;
+  }
+}
 /*# sourceMappingURL=map/styles.css.map */

@@ -1,0 +1,65 @@
+@use "vars" as *;
+
+@include mq(md-min){
+	.company-description{
+		font-size: vw(16);
+	}
+	.details-section h4,.contact-section h4{
+		font-size: vw(18);
+	}
+	.company-title{
+		font-size: vw(18);
+	}
+	.license-content p{
+		font-size: vw(16);
+	}
+
+	.contact-content p {
+		font-size: vw(16);
+	}
+	.hotline-link{
+		font-size: vw(20);
+	}
+	.footer-links{
+		font-size: vw(16);
+	}
+	.support-button {
+		padding: vw(8) vw(16);
+		font-size: vw(16);
+	}
+
+	.age-content {
+		font-size: vw(16);
+	}
+}
+
+@include mq(){
+	.company-description{
+		font-size: vwsp(14);
+	}
+	.details-section h4 {
+		font-size: vwsp(18);
+	}
+	.license-content p{
+		font-size: vwsp(14);
+	}
+	.contact-section h4{
+		font-size: vwsp(18);
+	}
+	.hotline-link{
+		font-size: vwsp(20);
+	}
+	.contact-content p {
+		font-size: vwsp(16);
+	}
+	.footer-links{
+		font-size: vwsp(16);
+	}
+	.support-button {
+		padding: vwsp(8) vwsp(16);
+		font-size: vwsp(16);
+	}
+	.age-content {
+		font-size: vwsp(16);
+	}
+}
