@@ -2,64 +2,64 @@
 
 @include mq(md-min){
 	.company-description{
-		font-size: vw(16);
+		font-size: vw(16) !important;
 	}
 	.details-section h4,.contact-section h4{
-		font-size: vw(18);
+		font-size: vw(18) !important;
 	}
 	.company-title{
-		font-size: vw(18);
+		font-size: vw(18) !important;
 	}
 	.license-content p{
-		font-size: vw(16);
+		font-size: vw(16) !important;
 	}
 
 	.contact-content p {
-		font-size: vw(16);
+		font-size: vw(16)!important;
 	}
 	.hotline-link{
-		font-size: vw(20);
+		font-size: vw(20) !important;
 	}
 	.footer-links{
-		font-size: vw(16);
+		font-size: vw(16) !important;
 	}
 	.support-button {
-		padding: vw(8) vw(16);
-		font-size: vw(16);
+		padding: vw(8) vw(16) !important;
+		font-size: vw(16) !important;
 	}
 
 	.age-content {
-		font-size: vw(16);
+		font-size: vw(16) !important;
 	}
 }
 
 @include mq(){
 	.company-description{
-		font-size: vwsp(14);
+		font-size: vwsp(14) !important;
 	}
 	.details-section h4 {
-		font-size: vwsp(18);
+		font-size: vwsp(18)!important;
 	}
 	.license-content p{
-		font-size: vwsp(14);
+		font-size: vwsp(14) !important;
 	}
 	.contact-section h4{
-		font-size: vwsp(18);
+		font-size: vwsp(18) !important;
 	}
 	.hotline-link{
-		font-size: vwsp(20);
+		font-size: vwsp(20) !important;
 	}
 	.contact-content p {
-		font-size: vwsp(16);
+		font-size: vwsp(16) !important;
 	}
 	.footer-links{
-		font-size: vwsp(16);
+		font-size: vwsp(16) !important;
 	}
 	.support-button {
-		padding: vwsp(8) vwsp(16);
-		font-size: vwsp(16);
+		padding: vwsp(8) vwsp(16) !important;
+		font-size: vwsp(16) !important;
 	}
 	.age-content {
-		font-size: vwsp(16);
+		font-size: vwsp(16) !important;
 	}
 }

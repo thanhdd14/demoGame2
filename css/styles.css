@@ -4359,78 +4359,78 @@ Component
 
 @media screen and (min-width: 769px) {
   .company-description {
-    font-size: 0.8333333333vw;
+    font-size: 0.8333333333vw !important;
   }
 
   .details-section h4, .contact-section h4 {
-    font-size: 0.9375vw;
+    font-size: 0.9375vw !important;
   }
 
   .company-title {
-    font-size: 0.9375vw;
+    font-size: 0.9375vw !important;
   }
 
   .license-content p {
-    font-size: 0.8333333333vw;
+    font-size: 0.8333333333vw !important;
   }
 
   .contact-content p {
-    font-size: 0.8333333333vw;
+    font-size: 0.8333333333vw !important;
   }
 
   .hotline-link {
-    font-size: 1.0416666667vw;
+    font-size: 1.0416666667vw !important;
   }
 
   .footer-links {
-    font-size: 0.8333333333vw;
+    font-size: 0.8333333333vw !important;
   }
 
   .support-button {
-    padding: 0.4166666667vw 0.8333333333vw;
-    font-size: 0.8333333333vw;
+    padding: 0.4166666667vw 0.8333333333vw !important;
+    font-size: 0.8333333333vw !important;
   }
 
   .age-content {
-    font-size: 0.8333333333vw;
+    font-size: 0.8333333333vw !important;
   }
 }
 @media screen and (max-width: 768px) {
   .company-description {
-    font-size: 1.8229166667vw;
+    font-size: 1.8229166667vw !important;
   }
 
   .details-section h4 {
-    font-size: 2.34375vw;
+    font-size: 2.34375vw !important;
   }
 
   .license-content p {
-    font-size: 1.8229166667vw;
+    font-size: 1.8229166667vw !important;
   }
 
   .contact-section h4 {
-    font-size: 2.34375vw;
+    font-size: 2.34375vw !important;
   }
 
   .hotline-link {
-    font-size: 2.6041666667vw;
+    font-size: 2.6041666667vw !important;
   }
 
   .contact-content p {
-    font-size: 2.0833333333vw;
+    font-size: 2.0833333333vw !important;
   }
 
   .footer-links {
-    font-size: 2.0833333333vw;
+    font-size: 2.0833333333vw !important;
   }
 
   .support-button {
-    padding: 1.0416666667vw 2.0833333333vw;
-    font-size: 2.0833333333vw;
+    padding: 1.0416666667vw 2.0833333333vw !important;
+    font-size: 2.0833333333vw !important;
   }
 
   .age-content {
-    font-size: 2.0833333333vw;
+    font-size: 2.0833333333vw !important;
   }
 }
 /*# sourceMappingURL=map/styles.css.map */
