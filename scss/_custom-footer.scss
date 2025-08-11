@@ -35,31 +35,31 @@
 
 @include mq(){
 	.company-description{
-		font-size: vwsp(14) !important;
+		font-size: vwsp(28) !important;
 	}
 	.details-section h4 {
-		font-size: vwsp(18)!important;
+		font-size: vwsp(36)!important;
 	}
 	.license-content p{
-		font-size: vwsp(14) !important;
+		font-size: vwsp(28) !important;
 	}
 	.contact-section h4{
-		font-size: vwsp(18) !important;
+		font-size: vwsp(36) !important;
 	}
 	.hotline-link{
-		font-size: vwsp(20) !important;
+		font-size: vwsp(40) !important;
 	}
 	.contact-content p {
-		font-size: vwsp(16) !important;
+		font-size: vwsp(32) !important;
 	}
 	.footer-links{
-		font-size: vwsp(16) !important;
+		font-size: vwsp(32) !important;
 	}
 	.support-button {
-		padding: vwsp(8) vwsp(16) !important;
-		font-size: vwsp(16) !important;
+		padding: vwsp(16) vwsp(32) !important;
+		font-size: vwsp(32) !important;
 	}
 	.age-content {
-		font-size: vwsp(16) !important;
+		font-size: vwsp(32) !important;
 	}
 }
